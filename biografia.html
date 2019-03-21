@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Lilita+One|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Lilita+One|Open+Sans" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>anime pokemon</title>
+</head>
+<body>
+
+	 <div class="container">
+       <!-- Menú Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="pokemon.html">Pokémon<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a  data-toggle="modal" data-target="#ventana" class="nav-link" href="#">Video</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              variedades
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="personaje.html">Personajes</a>
+              <a class="dropdown-item" href="biografia.html">Creado del pokemon</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#"></a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+    <!-- Fin Menú Navegación -->
+     <h1>Historia</h1>
+       <p class="center">Primeros años
+          Satoshi Tajiri nació el 28 de agosto de 1965 en Tokio. Sus padres eran una ama de casa y un vendedor de vehículos de la compañía Nissan. Tajiri creció en Machida, Tokio, lugar que, en aquel entonces, poseía una atmósfera rural. En su infancia, a Tajiri le gustaba coleccionar insectos, un pasatiempo que probó ser la inspiración de sus posteriores trabajos.2​ De hecho, los demás niños lo llamaban "Dr. Insecto" y quiso ser entomólogo. Mientras las áreas urbanas de Japón crecían, muchos de los lugares para cazar insectos desaparecieron. Tajiri quiso que sus juegos le permitieran a los niños tener la misma sensación de atrapar y coleccionar criaturas que él tuvo en su infancia. Los personajes de Ash Ketchum y Gary Oak (Satoshi y Shigeru en Japón) son versiones de Tajiri y Shigeru Miyamoto cuando eran niños. <br><br><br>
+
+
+         Durante su adolescencia, Tajiri se fascinó con los juegos árcade, sin embargo sus padres pensaban mal de él por esa conducta.1​ Particularmente le gustaba jugar Space Invaders de Taito, lo que lo llevó a conocer otros juegos. Tajiri quiso crear sus propios videojuegos. Tomó su consola Famicom y la desarmó para ver cómo funcionaba y terminó ganando un concurso para una idea de videojuego auspiciada por Sega. <br><br><br>
+
+         Gracias a su fascinación por los videojuegos, Tajiri frecuentemente faltaba a clases. Debido a esto, por poco no llegó a graduarse. Su padre intentó conseguirle un trabajo en la Compañía de Energía Eléctrica de Tokio, pero Tajiri rechazó el trabajo y se las arregló para recuperar sus clases y así obtener el diploma de la secundaria.1​3​ Tajiri no fue a la universidad, pero hizo una carrera técnica de dos años en La Escuela Tecnológica Nacional de Tokio, donde estudió electrónica. <br><br><br></p>
+
+        <h1> Afición a los videojuegos: la revista Game Freak</h1>
+          <p class="center">Además, Satoshi tenía una gran pasión por los videojuegos, llegando a trabajar como probador de algunos juegos para revistas. Junto a su amigo Ken Sugimori (el diseñador artístico de los primeros 151 Pokémon y actual director artístico de todas las criaturas de la franquicia) creó una revista llamada Game Freak en 1982, del tipo fanzine (de fans para fans). Empezó a estudiar electrónica y fue cuando tuvo la idea de crear un videojuego llamado Pokémon. La revista además fue un éxito, lo cual permitió a Satoshi animarse a escribir y publicar dos libros, llamados "CAP Land" y "Catch 'em all CAP land". A mediados de la década de 1980, el equipo de "Game Freak" tuvo la decisión de desarrollar sus propios videojuegos. Todo el equipo dejó su pequeña oficina y se mudó a uno de los edificios de la empresa Nintendo en Japón, y desarrolló nuevos videojuegos como "Yoshi's Egg".
+
+
+           </p>
+
+    <!-- ventana modal--->
+
+		<div  id="ventana" class="modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title">video pokemon</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <p>pokemon!.</p>
+	         <iframe width="100%" height="315" src="https://www.youtube.com/embed/wt58aq30Ei8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	       <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!--fin de ventana modal-->
+	   <script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

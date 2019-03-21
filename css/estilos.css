@@ -1,0 +1,19 @@
+.galeria{
+	display:flex;
+	justify-content:space-between;
+}
+
+.galeria div{
+	width:30%;
+}
+
+.cartas{
+	display: flex;
+	justify-content: space-between;
+}
+
+.row>[class^="col-"]{
+	background:lightpink;
+	border: 0.05em solid;
+	padding-top:0.5em;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Lilita+One|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Lilita+One|Open+Sans" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>anime pokemon</title>
+</head>
+<body>
+
+	 <div class="container">
+       <!-- Menú Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Inicio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="pokemon.html">Pokémon<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a  data-toggle="modal" data-target="#ventana" class="nav-link" href="#">Video</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              variedades
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="personaje.html">Personajes</a>
+              <a class="dropdown-item" href="biografia.html">Creado del pokemon</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#"></a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+    <!-- Fin Menú Navegación -->
+	<h1>Mundo Pokémon</h1>
+	   <div class="content-all">
+		<div class="content-carrousel">
+			<figure><img src="img/imagen1.png"></figure>
+			<figure><img src="img/imagen2.png"></figure>
+			<figure><img src="img/imagen3.png"></figure>
+			<figure><img src="img/imagen4.png"></figure>
+			<figure><img src="img/imagen5.png"></figure>
+			<figure><img src="img/imagen6.png"></figure>
+			<figure><img src="img/imagen7.png"></figure>
+			<figure><img src="img/imagen8.png"></figure>
+			<figure><img src="img/imagen9.png"></figure>
+			<!--<figure><img src="img/imagen10.png"></figure>-->
+	</div>
+</div>
+     <br><br><br><br><br><br><br><br><br>
+
+    <p class="center">Es una franquicia de medios que originalmente comenzó como un videojuego RPG, pero debido a su popularidad ha logrado expandirse a otros medios de entretenimiento como series de televisión, juegos de cartas, ropa, entre otros, convirtiéndose en una marca que es reconocida en el mercado mundial. Las ventas de videojuegos hasta el 1 de diciembre de 2006 habían alcanzado una cantidad de 312 millones de ejemplares (incluyendo la venta de la versión Pikachu de la consola Nintendo 64),1​ logrando ocupar el segundo lugar de las sagas de videojuegos más vendidos de Nintendo.2​ La franquicia celebró su décimo aniversario el 27 de febrero de 2006. <br><br>
+
+    La saga de videojuegos es desarrollada por la compañía programadora de software japonesa Game Freak, con personajes creados por Satoshi Tajiri para la empresa de juguetes Creatures Inc., y a su vez distribuida por Nintendo. La misión en estos juegos es capturar y entrenar a los pokémon (criaturas cuya denominación da nombre al juego), que hasta la fecha alcanzan el número de 809. La posibilidad de intercambiarlos le hizo conseguir una popularidad que se plasmó en un éxito de ventas y la consiguiente aparición de una serie animada, películas y diverso merchandising como peluches, juguetes y cartas. <br><br>
+
+    La producción de los videojuegos, serie de anime y demás material para su distribución en occidente fue realizada en Estados Unidos por 4Kids Entertainment hasta noviembre de 2005, momento en que decidió no renovar su contrato con Pokémon USA (una subsidiaria de Pokémon Company). Actualmente esta supervisa todo lo referente al material de Pokémon en su distribución en occidente.5​</p>
+
+    <!-- ventana modal--->
+
+		<div  id="ventana" class="modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title">video pokemon</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <p>pokemon!.</p>
+	         <iframe width="100%" height="315" src="https://www.youtube.com/embed/wt58aq30Ei8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	       <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!--fin de ventana modal-->
+	   <script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
